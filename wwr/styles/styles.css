@@ -1,0 +1,24 @@
+/* Palette https://coolors.co/palette/ffbe0b-fb5607-ff006e-8338ec-3a86ff */
+/* Main font Inter */
+/* Secondary font, maybe for headings Geist Mono for fun typewriter look, or playfair for a news look */
+
+:root {
+    --primary-color: #FFBE0B;
+    --secondary-color: #FB5607;
+    --accent1-color: #FF006E;
+    --accent2-color: #8338EC;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Geist Mono", monospace;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+}
