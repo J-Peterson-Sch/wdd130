@@ -3,22 +3,94 @@
 /* Secondary font, maybe for headings Geist Mono for fun typewriter look, or playfair for a news look */
 
 :root {
-    --primary-color: #FFBE0B;
+    --primary-color: rgb(255, 190, 10);
     --secondary-color: #FB5607;
     --accent1-color: #FF006E;
     --accent2-color: #8338EC;
 }
 
 body {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    /* font-weight: <weight>; */
-    font-style: normal;
+    max-width: 1024px;
+    padding-left: 75px;
+
 }
 
-h1,h2,h3,h4,h5,h6 {
-    font-family: "Geist Mono", monospace;
-    font-optical-sizing: auto;
+p {
+    font-family: "Inter", sans-serif;
+    /* font-optical-sizing: auto; */
     /* font-weight: <weight>; */
     font-style: normal;
+    color: #FB5607;
+}
+
+h1 {
+    font-family: "Geist Mono", monospace;
+    /* font-optical-sizing: auto; */
+    /* font-weight: <weight>; */
+    font-style: normal;
+    color: var(--accent2-color);
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Geist Mono", monospace;
+    /* font-optical-sizing: auto; */
+    /* font-weight: <weight>; */
+    font-style: normal;
+    color: var(--accent1-color);
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a img {
+    width: 3rem;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    text-align: center;
+    width: 100%;
+    color: whitesmoke;
+    font-size: 4rem;
+}
+
+.hero article {
+    position: absolute;
+    top: 50%;
+    width: 80%;
+    left: 10%;
+    background-color: rgb(255, 190, 10, .9);
+    max-height: 200px;
+}
+
+.hero article p {
+    transform: translateY(50%);
+    text-align: center;
+    max-width: 70%;
+    padding-left: 10px;
+    color: whitesmoke;
+}
+
+.hero article img {
+    max-width: 200px;
+    position: relative;
+    float: right;
+    right: 25px;
+    bottom: 80px;
 }
