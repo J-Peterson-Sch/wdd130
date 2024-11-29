@@ -12,7 +12,6 @@
 body {
     max-width: 1024px;
     padding-left: 75px;
-
 }
 
 header {
@@ -74,6 +73,7 @@ h6 {
     /* font-weight: <weight>; */
     font-style: normal;
     color: var(--accent1-color);
+    text-align: center;
 }
 
 footer a {
@@ -82,6 +82,15 @@ footer a {
 
 footer a img {
     width: 3rem;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+figcaption {
+    text-align: center;
 }
 
 .hero {
@@ -127,3 +136,24 @@ footer a img {
     right: 25px;
     bottom: 80px;
 }
+
+.history img {
+    width: 175px;
+    height: auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.flex p {
+    max-width: 25rem;
+}
+
+.flex img {
+    max-width: 150px;
+}
+
