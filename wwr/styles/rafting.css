@@ -16,7 +16,7 @@ body {
 
 header {
     display: grid;
-    grid-template-columns: 1fr, 1fr;
+    grid-template-columns: 1fr 1fr;
     justify-items: center;
     background-color: #FF006E;
     
@@ -52,7 +52,7 @@ p {
     /* font-optical-sizing: auto; */
     /* font-weight: <weight>; */
     font-style: normal;
-    color: #FB5607;
+    color: black;
 }
 
 h1 {
@@ -76,12 +76,38 @@ h6 {
     text-align: center;
 }
 
+h2 {
+    padding-top: 1rem;
+}
+
+footer {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 70% auto;
+    background-color: var(--accent1-color);
+}
+
+footer p {
+    padding-left: 15rem;
+}
+
 footer a {
     text-decoration: none;
+    text-align: center;
+    padding-left: 1.2rem;
+    line-height: 0%;
+    vertical-align: middle;
+
 }
 
 footer a img {
-    width: 3rem;
+    width: 2rem;
+
+}
+
+footer p {
+    grid-column: 1/2;
+    justify-self: center;
 }
 
 figure {
@@ -137,14 +163,15 @@ figcaption {
     bottom: 80px;
 }
 
-.history img {
-    width: 175px;
-    height: auto;
+.section {
+    background-color: lightgray;
+    padding-bottom: 2rem;
 }
+
 
 .flex {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     
 }
@@ -157,3 +184,9 @@ figcaption {
     max-width: 150px;
 }
 
+.social_icons {
+    grid-column: 2/3;
+    justify-self: right;
+    align-self: center;
+    padding-right: 4rem;
+}
