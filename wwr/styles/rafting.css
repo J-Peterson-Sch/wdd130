@@ -16,7 +16,7 @@ body {
 
 header {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 40% auto;
     justify-items: center;
     background-color: #FF006E;
     
@@ -24,14 +24,17 @@ header {
 
 header img {
     padding: 15px;
-    max-height: 20rem;
+    max-height: 8rem;
+    justify-content: center;
+    align-content: center;
 }
 
 nav {
     display: flex;
     grid-column-start: 2;
-    justify-content: center;
+    justify-self: left;
     align-items: center;
+    /* padding-right: 2rem; */
 }
 
 nav a {
