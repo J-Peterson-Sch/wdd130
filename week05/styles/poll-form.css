@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto Slab", serif;
+    font-size: 1.3rem;
+    color: darkcyan;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    width: 800px;
+}
+
+h1 {
+    justify-self: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+footer {
+    padding-top: 2rem;
+    justify-content: center;
+    max-width: 800px;
+}
+
+form {
+    width: 800px;
+    padding: 1rem;
+    border: solid black 2px;
+    border-radius: 8px;
+}
+
+main {
+
+    max-width: 800px;
+
+
+    flex-grow: 1;
+    text-align: center;
+}
