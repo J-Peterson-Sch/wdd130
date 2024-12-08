@@ -72,6 +72,7 @@ input, select, textarea {
     background-color: #fff;
 }
 
+
 input[type="checkbox"] {
     width: 22px;
     height: 22px;
@@ -115,12 +116,3 @@ footer {
 .column2 {
     grid-template-columns: 1fr 2fr;
 }
-
-/* main {
-
-    max-width: 800px;
-
-
-    flex-grow: 1;
-    text-align: center;
-} */

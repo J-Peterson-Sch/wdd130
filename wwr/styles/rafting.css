@@ -141,6 +141,16 @@ figcaption {
     font-size: 4rem;
 }
 
+.hero h3 {
+
+    position: absolute;
+    max-width: 40%;
+    color: whitesmoke;
+    font-size: 1rem;
+    right: 80px;
+    bottom: 20px;
+}
+
 .hero article {
     position: absolute;
     top: 50%;
@@ -171,12 +181,14 @@ figcaption {
     padding-bottom: 2rem;
 }
 
+.section_larger_space {
+    margin-top: 6rem;
+}
 
 .flex {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
 }
 
 .flex p {
@@ -187,9 +199,135 @@ figcaption {
     max-width: 150px;
 }
 
+.company_name {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: var(--accent2-color);
+}
+
 .social_icons {
     grid-column: 2/3;
     justify-self: right;
     align-self: center;
     padding-right: 4rem;
 }
+
+.headquarters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: .8rem;
+}
+
+.address p{
+    max-width: 400px;
+    margin: 0;
+    margin-bottom: .5rem;
+}
+
+iframe {
+    width: 300px;
+    height: 300px; 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(244, 218, 255);
+    border: solid 2px purple;
+}
+
+
+form p {
+    align-self: flex-start;
+    margin-left: 12%;
+}
+
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: .5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 3fr 1fr 3fr;
+    padding-bottom: 1rem;
+}
+
+.column3 {
+    grid-template-columns: 1fr 11fr;
+    padding-bottom: 1rem;
+    justify-self: left;
+}
+
+fieldset {
+    align-self: flex-start;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.newsletter {
+    align-self: flex-start;
+    margin-left: 12%;
+}
+
+button {
+    margin: 1rem;
+    background-color: var(--secondary-color);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    width: 200px;
+}
+
+button:hover {
+    background-color: var(--accent1-color);
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+input[type="email"] {
+    width: 277.5px;
+    border-radius: .3rem;
+}
+
+input[type="radio"] {
+    margin-left: 250px;
+}
+
+input, select, textarea {
+    padding: .5rem;
+    font-size: 1.1rem;
+    background-color: #fff;
+    border-radius: .3rem;
+}
+
+textarea {
+    resize: none;
+    width: 78%;
+}
+
