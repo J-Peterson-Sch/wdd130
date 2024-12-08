@@ -19,7 +19,6 @@ header {
     grid-template-columns: 40% auto;
     justify-items: center;
     background-color: #FF006E;
-    
 }
 
 header img {
@@ -142,10 +141,10 @@ figcaption {
     width: 100%;
     color: #fff;
     text-shadow:
-      3px 3px 0 var(--accent1-color),
-      -3px 3px 0 var(--accent1-color),
-      -3px -3px 0 var(--accent1-color),
-      3px -3px 0 var(--accent1-color);
+      3px 3px 0 black,
+      -3px 3px 0 black,
+      -3px -3px 0 black,
+      3px -3px 0 black;
     font-size: 4rem;
 }
 
@@ -203,8 +202,12 @@ figcaption {
     max-width: 25rem;
 }
 
-.flex img {
+.img_small {
     max-width: 150px;
+}
+
+.img_med {
+    max-width: 300px;
 }
 
 .company_name {
