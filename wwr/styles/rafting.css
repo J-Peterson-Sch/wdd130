@@ -86,12 +86,19 @@ h2 {
 footer {
     margin-top: 1rem;
     display: grid;
-    grid-template-columns: 70% auto;
+    grid-template-columns: 2fr 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
     background-color: var(--accent1-color);
 }
 
 footer p {
-    padding-left: 15rem;
+    padding-left: 0rem;
+    color: white;
+    font-weight: bold;
+}
+
+.wireframe{
     color: white;
     font-weight: bold;
 }
@@ -102,12 +109,14 @@ footer a {
     padding-left: 1.2rem;
     line-height: 0%;
     vertical-align: middle;
-
 }
 
+.social_icons {
+    justify-self: right;
+    padding-right: 4rem;
+}
 footer a img {
     width: 2rem;
-
 }
 
 footer p {
@@ -214,13 +223,6 @@ figcaption {
     font-weight: bold;
     font-size: 1.2rem;
     color: var(--accent2-color);
-}
-
-.social_icons {
-    grid-column: 2/3;
-    justify-self: right;
-    align-self: center;
-    padding-right: 4rem;
 }
 
 .headquarters {
