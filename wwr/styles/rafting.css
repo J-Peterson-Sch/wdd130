@@ -254,12 +254,10 @@ form {
     border: solid 2px purple;
 }
 
-
 form p {
     align-self: flex-start;
     margin-left: 12%;
 }
-
 
 .form-item {
     display: grid;
@@ -282,6 +280,34 @@ form p {
     justify-self: left;
 }
 
+.column4 {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 3rem;
+}
+
+.row1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+    align-items: end;
+    justify-items: start;
+}
+
+.row2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: end;
+    justify-items: center;
+}
+
+
+.row2 button {
+    /* margin: 0; */
+    margin: 1rem .1rem 1rem 1rem;
+    padding: .5rem;
+
+}
+
 fieldset {
     align-self: flex-start;
     margin-left: 10%;
@@ -293,8 +319,37 @@ fieldset {
 }
 
 .newsletter {
+    background-color: #E93578;
+    color: white;
+}
+
+.newsletter button {
+    background-color: #9C29B7;
+    color: white;
+    margin-top: 2rem;
+}
+
+.newsletter p {
+    color: white;
+    font-size: 1.1rem;
+    margin-left: 4rem;
+    max-width: 400px;
     align-self: flex-start;
-    margin-left: 12%;
+}
+
+.newsletter h2 {
+    color: white;
+}
+
+fwerorm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(244, 218, 255);
+    border: solid 2px purple;
 }
 
 button {
@@ -347,9 +402,10 @@ textarea {
     width: 78%;
 }
 
-.side_by_side {
+.side-by-side {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: 2rem;
 }
 .interweave {
     display: flex;
@@ -369,18 +425,45 @@ textarea {
     margin-right: 50px;
 }
 
-
-
-.interweave_small {
+.interweave-small {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-
 }
 
-.interweave_small p {
+.interweave-small p {
     margin: 0;
     max-width: 50%;
+}
+
+.image-cta {
+    background-image: url("../images/rafting49_425.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.image-cta a {
+    margin-top: 3rem;
+    padding: .5rem .3rem .5rem .3rem;
+    max-width: 225px;
+    max-height: 3.5rem;
+    background-color: #ff529d;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    border: 1px solid var(--accent2-color);
+    border-radius: 10px;
+    /* text-shadow:
+    1px 1px 0 white,
+    -1px 1px 0 white,
+    -1px -1px 0 white,
+    1px -1px 0 white; */
 }
