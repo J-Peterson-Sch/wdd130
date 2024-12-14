@@ -7,6 +7,7 @@
     --secondary-color: #FB5607;
     --accent1-color: #8c003d;
     --accent2-color: #8338EC;
+    --accent3-color: #840030;
 }
 
 body {
@@ -18,7 +19,7 @@ header {
     display: grid;
     grid-template-columns: 40% auto;
     justify-items: center;
-    background-color: #FF006E;
+    background-color: var(--accent3-color);
 }
 
 header img {
@@ -89,7 +90,7 @@ footer {
     grid-template-columns: 2fr 1fr 1fr;
     justify-content: space-around;
     align-items: center;
-    background-color: var(--accent1-color);
+    background-color: var(--accent3-color);
 }
 
 footer p {
@@ -319,8 +320,10 @@ fieldset {
 }
 
 .newsletter {
-    background-color: #E93578;
+    background-color: var(--accent3-color);
     color: white;
+    font-weight: 550;
+    font-size: 1.3rem;
 }
 
 .newsletter button {
@@ -331,7 +334,7 @@ fieldset {
 
 .newsletter p {
     color: white;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     margin-left: 4rem;
     max-width: 400px;
     align-self: flex-start;
