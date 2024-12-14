@@ -347,3 +347,40 @@ textarea {
     width: 78%;
 }
 
+.side_by_side {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.interweave {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.interweave p {
+    margin: 0;
+    max-width: 50%;
+}
+
+.interweave img {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
+.interweave_small {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.interweave_small p {
+    margin: 0;
+    max-width: 50%;
+}
